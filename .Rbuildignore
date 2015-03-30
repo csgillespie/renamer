@@ -1,0 +1,6 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^LICENSE$
+^README.md$
+^deploy.md$
+^.travis.yml$
