@@ -1,9 +1,9 @@
-Package: underscorer
-Title: Corrects Missing Underscores
+Package: renamer
+Title: Standardise Function Names
 Version: 0.0.1
 Authors@R: person("Colin", "Gillespie", , "csgillespie@gmail.com", role = c("aut", "cre")) 
-Description: This package does four things. First, it changes camelCase to under_score_case. 
-  Secondly, it fills in the 200 minute Newcastle-London
+Description: This package does four things. First, it changes camelCase to under_score_case 
+  and vice-versa. Secondly, it fills in the three hour Newcastle-London
   train journey. Third, it improves my knowledge of manipulating functions. Fourth,
   it provides an excellent April Fools joke.
 Depends: R (>= 3.1.3)
