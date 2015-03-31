@@ -6,6 +6,11 @@ The package is located in my `drat` repo, and the latest version can be installe
 ```
 install.packages("renamer", repos="http://csgillespie.github.io/drat", type="source")
 ```
+or if you have [drat](http://dirk.eddelbuettel.com/code/drat.html) installed
+```{r}
+drat::addRepo("csgillespie")
+install.packages("renamer")
+```
 
 ## Example: The CamelCaseR
 
