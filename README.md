@@ -2,6 +2,11 @@
 
 Tired of the [disparate naming](journal.r-project.org/archive/2012-2/RJournal_2012-2_Baaaath.pdf) systems in R? Then this is the package for you. 
 
+The package is located in my `drat` repo, and the latest version can be installed via
+```
+install.packages("renamer", repos="http://csgillespie.github.io/drat", type="source")
+```
+
 ## Example: The CamelCaseR
 
 If have an unnatural fear of underscores, that prevents the use of `ggplot2`, then you are saved
