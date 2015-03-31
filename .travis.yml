@@ -1,21 +1,18 @@
 language: r
 sudo: true
-
 r_github_packages:
-  - eddelbuettel/drat
-
+- eddelbuettel/drat
 notifications:
   email:
     on_success: change
     on_failure: change
-
 apt_packages:
-  - texlive-science
-  - latex-xcolor
-
+- texlive-science
+- latex-xcolor
 after_success:
-  - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash deploy.sh
-
+- test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash
+  deploy.sh
 env:
   global:
-    secure: QMeamOa/i2AmK6jksQ3lKn0jzNcAx1S604C3f9n6xJF8swDU7vedELhOW+5zTgxtEZg73FyRO8Lm2PP3akY7KcfPNH7oAe+dev/61KccXAX5ThvrryAEy8STxCYX9IVPPwhNaYiIi5jmi+QEqFyBZkGtmtzcFqIS6s3RgHR+XsU=
+  - secure: QMeamOa/i2AmK6jksQ3lKn0jzNcAx1S604C3f9n6xJF8swDU7vedELhOW+5zTgxtEZg73FyRO8Lm2PP3akY7KcfPNH7oAe+dev/61KccXAX5ThvrryAEy8STxCYX9IVPPwhNaYiIi5jmi+QEqFyBZkGtmtzcFqIS6s3RgHR+XsU=
+  - secure: bNSX8GPT87DqK0nNvFYDJ+8WT98ehOVz3j1bnIKZn4Lq/ejyiSqmQWTeOYixs4CJ/oq0gGEWT78DQeERmU+C/qs7wlHZBCveJxbuiQs+k4R4x+fy9IvjEo5CHVEbDleRIH2zA+/Fu0/JzeGkDb+XXR5jJZK3s344A/Nj+dxHrJ4=
