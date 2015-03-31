@@ -16,7 +16,7 @@ addToDrat(){
   git fetch upstream
   git checkout gh-pages
 
-  Rscript -e "drat::insertPackage(devtools::build('../underscore'), \
+  Rscript -e "drat::insertPackage(devtools::build('../renamer'), \
     repodir = '.', \
     commit='Travis update: build $TRAVIS_BUILD_NUMBER')"
   git push
