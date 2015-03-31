@@ -2,5 +2,5 @@
 ^\.Rproj\.user$
 ^LICENSE$
 ^README.md$
-^deploy.md$
+^deploy.sh$
 ^.travis.yml$
